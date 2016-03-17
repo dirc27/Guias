@@ -27,13 +27,13 @@
     6. En 'Variables de usuario para' seleccionar la variable 'Path' y seleccionar 'edit'
     7. Si no existe la variable 'Path', seleccionar 'Nueva' y definir el nombre como 'PATH' y el valor así:
         ```
-        C:\Python27;C:\Python27\python.exe;C:Python\27\Lib\site-packages;C;\Python27\Lib\site-packages\django\bin;c:\Python27\Scripts;
+        C:\Python27;C:\Python27\python.exe;C:Python27\Lib\site-packages;C:\Python27\Lib\site-packages\django\bin;C:\Python27\Scripts;
         ```
 
         Pero si ya existe la variable PATH y tiene algo escrito en la casilla que pone 'valor',  añades simplemente la ruta de arriba después de lo que ya está escrito en la casilla para el valor. El resultado final será parecido a esto:
 
         ```
-        C:\Windows\System32;C:\Python27;C:\Python27\python.exe;C:Python\27\Lib\site-packages;C;\Python27\Lib\site-packages\django\bin\;c:\Python27\Scripts;
+        C:\Windows\System32;C:\Python27;C:\Python27\python.exe;C:Python27\Lib\site-packages;C:\Python27\Lib\site-packages\django\bin\;C:\Python27\Scripts;
         ```
 
 
